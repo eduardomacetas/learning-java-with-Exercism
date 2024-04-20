@@ -1,3 +1,11 @@
+// Exercise: https://exercism.org/tracks/java/exercises/elons-toy-car
+// Description: This learning exercise helped evolve your knowledge of Classes.
+
+// You've unlocked 4 concepts: Constructors
+//                             Interfaces
+//                             Switch Statements
+//                             Inheritance
+
 public class ElonsToyCar {
     private int distanceDriven;
     private int batteryPercentage = 100;
@@ -15,8 +23,8 @@ public class ElonsToyCar {
         if (this.batteryPercentage == 0) {
             return "Battery empty";
         }
-        return "Battery at " + batteryPercentage + "%" ;
         // return String.format("Battery at %d%%", batteryPercentage);
+        return "Battery at " + batteryPercentage + "%" ;
     }
 
     public void drive() {

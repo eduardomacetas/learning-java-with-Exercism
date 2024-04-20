@@ -1,3 +1,9 @@
+// Exercise: https://exercism.org/tracks/java/exercises/annalyns-infiltration
+// Description: This learning exercise helped evolve your knowledge of Booleans.
+
+// You've unlocked 2 concepts: If-Else statements
+//                             Numbers
+
 class AnnalynsInfiltration {
     public static boolean canFastAttack(boolean knightIsAwake) {
         return !knightIsAwake;

@@ -1,3 +1,9 @@
+// Exercise: https://exercism.org/tracks/java/exercises/lasagna
+// Description: This learning exercise helped evolve your knowledge of Basics.
+
+// You've unlocked 2 concepts: Booleans
+//                             Strings
+
 public class Lasagna {
 
     public int expectedMinutesInOven() {
@@ -15,5 +21,4 @@ public class Lasagna {
     public int totalTimeInMinutes(int layersNumber, int minutesInOven) {
         return preparationTimeInMinutes(layersNumber) + minutesInOven;
     }
-  
 }
