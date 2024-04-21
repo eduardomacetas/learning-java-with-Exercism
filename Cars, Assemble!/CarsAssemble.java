@@ -14,22 +14,22 @@
 //                              Bit Manipulation
 
 public class CarsAssemble {
-
-  Double carsProducedPerHour = 221.0;
-  
-  public double productionRatePerHour(int speed) {
-      if (speed >= 1 && speed <= 4) {
+    
+    Double carsProducedPerHour = 221.0;
+    
+    public double productionRatePerHour(int speed) {
+        if (speed >= 1 && speed <= 4) {
           return speed * carsProducedPerHour;
-      } else if (speed >= 5 && speed <= 8 ) {
+        } else if (speed >= 5 && speed <= 8 ) {
           return speed * (carsProducedPerHour * 0.9);
-      } else if (speed == 9) {
+        } else if (speed == 9) {
           return speed * (carsProducedPerHour * 0.8);
-      } else {
+        } else {
           return speed * (carsProducedPerHour * 0.77);
-      }
-  }
+        }
+    }
 
-  public int workingItemsPerMinute(int speed) {
-      return (int) productionRatePerHour(speed) / 60;
-  }
+    public int workingItemsPerMinute(int speed) {
+        return (int) productionRatePerHour(speed) / 60;
+    }
 }
